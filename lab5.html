@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5</title>
+    <style> 
+     div{
+        width: 200px;
+        height: 200px;
+        background-color: cadetblue;}
+    
+    </style>
+</head>
+<body> <!--Task1-->
+    <div>
+        <script>
+        /*
+        const yodaSays =["on JS","programming","i like"];
+        document.write(yodaSays[2] + " " + yodaSays[1] + " " + yodaSays[0] ); */
+
+        /* Task 2
+        const duck = {
+            name: "Donald",
+            color: "White",
+            age: 1
+
+        }; 
+        const predlozheniye = ("My name is " + duck.name + "\nI'm "+ duck.age + "years old" + "\nMy color is "+ duck.color );
+        console.log(predlozheniye) */
+        
+/* Task 3
+        var login = "admin";
+        var password = "12345"
+        var adminLog = prompt("Enter login");
+        if(adminLog==login){
+            var adminPassword=prompt("password");
+            if(adminPassword==password){
+                alert("Hello user");
+            } else if(adminPassword==null){
+                alert("Login Canceled")
+            }
+            else{
+                alert("Wrong password");
+            }
+        } else if(adminLog==null){   alert("Login Canceled")
+    } else { alert("Unknown User");} */
+
+/*   Task 4
+        const arr = ['milk','beer','beer','milk','milk'];
+        for(var i=0;i<arr.length;i++){
+            if(arr[i]=='milk'){
+                console.log("good");
+            } else{
+                console.log("bad");
+            }
+        }
+*/   
+/*          task 5
+        var enterSymbol = prompt("Enter Symbol");
+        if(enterSymbol){
+            var string = enterSymbol.repeat(20);
+            var rect = ""; 
+            for (var i=0; i<7;i++){
+                var rect = rect + string + '\n';
+            }
+            alert(rect);
+
+        }
+*/
+/*   Task 6
+    var seconds = prompt("Введите секнуды")
+        var hours = Math.floor(seconds/3600);
+        if(hours==8){
+        alert("Осталось 8 часов");
+    } else if(hours==7){
+        alert("Осталось 7 часов");
+    } else if(hours==6){
+        alert("Осталось 6 часов");
+    }
+        else if(hours==5){
+        alert("Осталось 5 часов")
+    }
+        else if(hours==4){
+        alert("Осталось 4 часа")
+    }
+        else if(hours==3){
+        alert("Осталось 3 часа")
+    }
+        else if(hours==2){
+        alert("Осталось 2 часа")
+    }
+        else if(hours==1){
+        alert("Осталось 1 час")
+    }
+        else{
+        alert("осталось менее часа")
+    }
+
+*/
+const a = Math.floor(Math.random()*9)+1
+const b = Math.floor(Math.random()*9)+1
+var res = prompt(a*b);
+var question = prompt("Answer:")
+if(a*b==res){
+    prompt("Good");
+}
+else{
+    prompt("Wrong")
+}
+
+
+
+
+
+
+
+
+/*        Task 8
+        var celsii = prompt("Введите температуру");
+        function converting(celsii){
+            var faren = ((celsii*9)/5)+32
+            return faren
+        }
+        var faren = converting(celsii);
+        alert(faren);
+*/
+/*      TASK 9-------------
+        var number = prompt("Введите число и мы проверим его на валидацию");
+        function validating(number){
+            if(number>0){
+                alert("Положительное")
+            } else if(number==0){
+                alert("ноль");
+
+            } else if(number<0){
+                alert("отрицательное");
+            } else if(isNan(number)){
+                alert("Not a number");
+            } else if(number==null){
+                alert("вы нажали отмена");
+            }
+            return number
+        }
+        validating(number);
+*/
+
+/*   TASK 10----------------
+        function multiply(a, b) {
+        if (a === undefined || b === undefined) {
+        alert("Параметры обязательны");
+        return
+        }
+        return a * b;
+        }
+        multiply(2,2);
+        console.log(multiply);
+
+*/
+
+</script>
+</div>
+
+</body>
+</html>
